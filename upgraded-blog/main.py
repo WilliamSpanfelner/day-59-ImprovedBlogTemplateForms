@@ -35,11 +35,10 @@ def contact():
         return render_template("contact.html")
 
 
-# @app.route("/form-entry", methods=["POST"])
 def receive_data():
     data = request.form
     print('\n', data['name'], '\n', data['email'], '\n', data['phone'], '\n', data['message'])
-    return "<h1>Successfully sent your message.</h1>"
+    return render_template("contact.html", data=data)
 
 
 if __name__ == "__main__":
