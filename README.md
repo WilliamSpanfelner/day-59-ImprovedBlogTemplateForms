@@ -1,3 +1,4 @@
+![Screenshot](day-59-ImprovedBlogTemplateForms.png)
 # Working contact form for the upgraded blog template site using Flask and Jinja.
 - 👋 Hi, I’m @WilliamSpanfelner
 - 👀 I’m interested in using Python with Swift in iOS environments and why it may or may not be desirable.
